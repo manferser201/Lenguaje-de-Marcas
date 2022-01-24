@@ -1,0 +1,5 @@
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT calle ANY>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA))>
+<!ELEMENT codigo (#PCDATA))>

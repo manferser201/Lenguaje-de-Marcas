@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE discografica [
+    <!ELEMENT discografica (disco)+>
+    <!ELEMENT disco (titulo, interpretes+, pistas+)>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT interpretes (interprete)+>
+        <!ELEMENT interprete (nombre, apellidos)>
+            <!ATTLIST interprete rol CDATA #IMPLIED>
+            <!ELEMENT nombre (#PCDATA)>
+            <!ELEMENT apellidos (#PCDATA)>
+        <!ELEMENT pistas (pista)+>
+        <!ELEMENT pista (cancion, duracion)>
+            <!ATTLIST pista numero CDATA #REQUIRED>
+            <!ELEMENT cancion (#PCDATA)>
+            <!ELEMENT duracion (#PCDATA)>
+]>
+
+<discografica>
+    <disco>
+        <titulo>Back in Black</titulo>
+        <interpretes>
+            <interprete rol="Voz principal">
+                <nombre>Brian</nombre>
+                <apellidos>Johnson</apellidos>
+            </interprete>
+            <interprete rol="Guitarra principal">
+                <nombre>Angus</nombre>
+                <apellidos>Young</apellidos>
+            </interprete>
+            <interprete rol="Guitarra rítmica">
+                <nombre>Malcolm</nombre>
+                <apellidos>Young</apellidos>
+            </interprete>
+            <interprete rol="Bajo">
+                <nombre>Cliff</nombre>
+                <apellidos>Williams</apellidos>
+            </interprete>
+            <interprete rol="Batería">
+                <nombre>Phil</nombre>
+                <apellidos>Rudd</apellidos>
+            </interprete>
+        </interpretes>
+        <pistas>
+            <pista numero="1">
+                <cancion>Hells Bells</nombre>
+                <duracion>5:13</duracion>
+            </pista>
+            <pista numero="2">
+                <cancion>Shoot to Thrill</nombre>
+                <duracion>5:20</duracion>
+            </pista>
+            <pista numero="3">
+                <cancion>What Do You Do for Money Honey</nombre>
+                <duracion>3:36</duracion>
+            </pista>
+            <pista numero="4">
+                <cancion>Givin the Dog a Bone</nombre>
+                <duracion>3:32</duracion>
+            </pista>
+            <pista numero="5">
+                <cancion>Let Me Put My Love Into You</nombre>
+                <duracion>4:16</duracion>
+            </pista>
+            <pista numero="6">
+                <cancion>Back in Black</nombre>
+                <duracion>4:16</duracion>
+            </pista>
+            <pista numero="7">
+                <cancion>You Shook Me All Night Long</nombre>
+                <duracion>3:31</duracion>
+            </pista>
+            <pista numero="8">
+                <cancion>Have a Drink on Me</nombre>
+                <duracion>4:00</duracion>
+            </pista>
+            <pista numero="9">
+                <cancion>Shake a Leg</nombre>
+                <duracion>4:06</duracion>
+            </pista>
+            <pista numero="10">
+                <cancion>Rock 'n' Roll Ain't Noise Pollution</nombre>
+                <duracion>4:27</duracion>
+            </pista>
+        </pistas>
+    </disco>
+</discografica>

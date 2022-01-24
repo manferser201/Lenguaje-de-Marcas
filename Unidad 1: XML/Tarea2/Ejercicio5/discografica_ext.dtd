@@ -1,0 +1,11 @@
+<!ELEMENT discografica (disco)+>
+<!ELEMENT disco (titulo, interprete+, pista+)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT interprete (nombre, apellidos)>
+        <!ATTLIST interprete rol CDATA #IMPLIED>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT pista (nombre, duracion)>
+        <!ATTLIST pista numero CDATA #REQUIRED>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT duracion (#PCDATA)>

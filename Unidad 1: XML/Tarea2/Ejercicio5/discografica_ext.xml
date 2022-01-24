@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE discografica SYSTEM "discografica_ext.dtd">
+
+<discografica>
+    <disco>
+        <titulo>Back in Black</titulo>
+        <interprete rol="Voz principal">
+            <nombre>Brian</nombre>
+            <apellidos>Johnson</apellidos>
+        </interprete>
+        <interprete rol="Guitarra principal">
+            <nombre>Angus</nombre>
+            <apellidos>Young</apellidos>
+        </interprete>
+        <interprete rol="Guitarra rítmica">
+            <nombre>Malcolm</nombre>
+            <apellidos>Young</apellidos>
+        </interprete>
+        <interprete rol="Bajo">
+            <nombre>Cliff</nombre>
+            <apellidos>Williams</apellidos>
+        </interprete>
+        <interprete rol="Batería">
+            <nombre>Phil</nombre>
+            <apellidos>Rudd</apellidos>
+        </interprete>
+        <pista numero="1">
+            <nombre>Hells Bells</nombre>
+            <duracion>5:13</duracion>
+        </pista>
+        <pista numero="2">
+            <nombre>Shoot to Thrill</nombre>
+            <duracion>5:20</duracion>
+        </pista>
+        <pista numero="3">
+            <nombre>What Do You Do for Money Honey</nombre>
+            <duracion>3:36</duracion>
+        </pista>
+        <pista numero="4">
+            <nombre>Givin the Dog a Bone</nombre>
+            <duracion>3:32</duracion>
+        </pista>
+        <pista numero="5">
+            <nombre>Let Me Put My Love Into You</nombre>
+            <duracion>4:16</duracion>
+        </pista>
+        <pista numero="6">
+            <nombre>Back in Black</nombre>
+            <duracion>4:16</duracion>
+        </pista>
+        <pista numero="7">
+            <nombre>You Shook Me All Night Long</nombre>
+            <duracion>3:31</duracion>
+        </pista>
+        <pista numero="8">
+            <nombre>Have a Drink on Me</nombre>
+            <duracion>4:00</duracion>
+        </pista>
+        <pista numero="9">
+            <nombre>Shake a Leg</nombre>
+            <duracion>4:06</duracion>
+        </pista>
+        <pista numero="10">
+            <nombre>Rock 'n' Roll Ain't Noise Pollution</nombre>
+            <duracion>4:27</duracion>
+        </pista>
+    </disco>
+</discografica>

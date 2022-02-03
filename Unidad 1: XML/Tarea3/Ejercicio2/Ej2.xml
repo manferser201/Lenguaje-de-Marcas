@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "Ej2.dtd">
+
+<Libro Catalogo="Lectura">
+    <Titulo>Informática para tontos</Titulo>
+    <Seccion>Informática</Seccion>
+    <Contenido>
+        <Capitulo materia="XML">
+            <Tema>Inicios en XML</Tema>
+        </Capitulo>
+        <Separacion />
+    </Contenido>
+    <Copyright>La casa del Libro</Copyright>
+</Libro>

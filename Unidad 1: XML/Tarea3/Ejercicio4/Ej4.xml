@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder orderid="ASC"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Ej4.xsd" >
+
+    <orderperson>ASDADAD</orderperson>
+    <shipto>
+        <name>Manuel</name>
+        <address>Calle Lope de Vega</address>
+        <city>Sevilla</city>
+        <country>España</country>
+    </shipto>
+    <item>
+        <title>Lapiz</title>
+        <note>Lapiz de madera H3</note>
+        <quantity>100</quantity>
+        <price>1.5</price>
+    </item>
+</shiporder>

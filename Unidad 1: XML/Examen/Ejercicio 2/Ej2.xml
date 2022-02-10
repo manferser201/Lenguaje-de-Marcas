@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreria SYSTEM "Ej2.dtd">
+
+<libreria catalogo="Deportivo">
+    <libro titulo="El señor de los anillos: La comunidad del anillo" editorial="Siempre Hobbit" autor="J.K.Rolling"/>
+    <libro titulo="El señor de los anillos: Las dos torres" editorial="Siempre Hobbit" autor="J.K.Rolling"/>
+    <libro titulo="El señor de los anillos: El retorno del rey" editorial="Siempre Hobbit" autor="J.K.Rolling"/>
+    <revista marca="Marca">
+        <numero>268</numero>
+        <titular>El no de Mbappe a la renovación con el PSG</titular>
+        <editorial>La esquina de la abuela</editorial>
+    </revista>
+    <periodico fecha="10/02/2022" nombre="El País" version_web="https://www.elpais.com"/>
+</libreria>

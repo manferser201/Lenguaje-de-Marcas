@@ -11,7 +11,7 @@
             border-collapse: collapse;
         }
 
-        td {
+        td, th {
             padding-top: 10px;
             padding-left: 10px;
             padding-right: 10px;
@@ -34,7 +34,7 @@
                 <td colspan="2" id = "imagen"><img alt="Foto Ipod 1" src="Imagenes/ipod.png" height="100px"/></td>
             </tr>
             <tr id="texto"> 
-                <td><b>Capacidad</b></td>
+                <th>Capacidad</th>
                 <td> 2 GB </td>
                 <td> 4 GB </td>
                 <td> 8 GB </td>
@@ -42,31 +42,35 @@
                 <td>2 GB </td>
             </tr>
             <tr>
-                <td id="texto"><b>Colores</b></td>
-                <td id="texto"><b>Blanco</b></td>
+                <th id="texto"><b>Colores</b></th>
+                <th id="texto"><b>Blanco</b></th>
                 <td>
-                    <li>Negro</li>
-                    <li>Rosa</li>
-                    <li>Dorado</li>
+                    <ul>
+                        <li>Negro</li>
+                        <li>Rosa</li>
+                        <li>Dorado</li>
+                    </ul>
                 </td>
-                <td id="texto"><b>Negro</b></td>
+                <th id="texto">Negro</th>
                 <td colspan="2"> 
-                    <li>Negro</li>
-                    <li>Blanco</li>
+                    <ul>
+                        <li>Negro</li>
+                        <li>Blanco</li>
+                    </ul>
                 </td>
             </tr>
             <tr id="texto">
-                <td><b>Pantalla</b></td>
-                <td colspan="3"><b>3 pulgadas</b></td>
-                <td colspan="2"><b>7 pulgadas</b></td>
+                <th>Pantalla</th>
+                <th colspan="3">3 pulgadas</th>
+                <th colspan="2">7 pulgadas</th>
             </tr>
             <tr id="texto">
-                <td rowspan="2"><b>Tiempo de Carga</b></td>
-                <td rowspan="2" colspan="3"><b>1 hora</b></td>
-                <td colspan="2"><b>5 horas</b></td>
+                <th rowspan="2">Tiempo de Carga</th>
+                <th rowspan="2" colspan="3"> 1 hora</th>
+                <th colspan="2">5 horas</th>
             </tr>
             <tr id="texto">
-                <td colspan="2"><b>30 minutos para 75%</b></td>
+                <th colspan="2">30 minutos para 75%</th>
             </tr>
         </tbody>
     </table>

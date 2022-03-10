@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <style>
+        p{
+            background-color: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <p style="text-align: center;">IES Alixar Login </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="usuario">Usuario</label>
+                    </td>
+                    <td>
+                        <input id="usuario" type="text"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                    </td>
+                    <td>
+                        <input id="password" type="text"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fnac">Fecha de Nacimiento</label>
+                    </td>
+                    <td>
+                        <input id="fnac" type="date"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="role">Role: </label>
+                    </td>
+                    <td>
+                        <input type="radio" name="role" value="estudiante" selected/>Estudiante <br>
+                        <input type="radio" name="role" value="profesor" />Profesor <br>
+                        <input type="radio" name="role" value="apoyo" />Apoyo <br>
+                        <input type="radio" name="role" value="staff" />Staff
+                    </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <label for="comunicacion">Forma de Comunicación</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="comunicacion" value="mail"> Mail <br>
+                        <input type="checkbox" name="comunicacion" value="tel"> Teléfono <br>
+                        <input type="checkbox" name="comunicacion" value="correo" selected> Correo Ordinario
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button style="margin-left: 100px;">Enviar</button>
+                    </td>
+                    <td>
+                        <button>Borrar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

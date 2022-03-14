@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <style>
+        th, td, table{
+            border:2px dashed red;
+            text-align: center;
+        }
+
+        th{
+            background-color: rgb(248, 182, 156);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>Número de catálogo</th>
+            <th>Nombre</th>
+            <th>Imagen</th>
+            <th>Web donde lo encontramos</th>
+            <th>Tienda</th>
+            <th>Precio</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>7821562</td>
+                <td>Atari Mini</td>
+                <td>
+                    <img src="Imagenes/atariMini.png" alt="Atari Mini">
+                </td>
+                <td>
+                    <a href="http://www.ebay.es" target="_blank">http://www.ebay.es</a>
+                </td>
+                <td>E-Bay</td>
+                <td>100€</td>
+            </tr>
+            <tr>
+                <td>243243</td>
+                <td>Super Nintendo Mini</td>
+                <td>
+                    <img src="Imagenes/superNintendo.png" alt="Super Nintendo Mini">
+                </td>
+                <td rowspan="3" colspan="2">
+                    <a href="http://www.amazon.es" target="_blank">http://www.amazon.es</a>
+                </td>
+                <td>100€</td>
+            </tr>
+            <tr>
+                <td>593922</td>
+                <td>Mega Drive Mini</td>
+                <td>
+                    <img src="Imagenes/megaDrive.png" alt="Mega Drive Mini">
+                </td>
+                <td>200€</td>
+            </tr>
+            <tr>
+                <td>293944</td>
+                <td>Playstation Mini</td>
+                <td>
+                    <img src="Imagenes/playstation.png" alt="Playstation Mini">
+                </td>
+                <td>300€</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Número de catálogo</th>
+            <th>Nombre</th>
+            <th>Imagen</th>
+            <th>Web donde lo encontramos</th>
+            <th>Tienda</th>
+            <th>Precio</th>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,1 @@
+En la versión inglesa del poema, los primeros dos párrafos tienen una estilo diferente porque están dentro de una etiqueta "p" con una clase llamada "verse" y como hemos visto en el ejercicio anterior, en la hoja de estilo se le da un estilo diferente ducha etiqueta con dicha clase.

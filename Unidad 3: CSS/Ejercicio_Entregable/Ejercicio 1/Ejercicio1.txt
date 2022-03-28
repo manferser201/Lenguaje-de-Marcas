@@ -1,0 +1,13 @@
+Los 4 primeros elementos de la hoja de estilos le da estilos a una etiqueta concreta de la siguiente forma:
+    El primer elemento le da color de fondo a la etiqueta body.
+    El Segundo elemento le da color y tamaño al texto que esté dentro de una etiqueta h1.
+    El tercer elemento le da color a todo lo que esté dentro de una etiqueta hr.
+    El último elemento dentro de este grupo le da tamaño y margen a la izquierda a todo lo que 	esté dentro de un párrafo (de una etiqueta p).
+
+El quinto elemento le da color y margen a la izquierda a todo lo que esté dentro de una etiqueta p y tenga como clase el nombre "verse".
+
+Los últimos 4 elementos de la hoja de estilos le dan estilos a la etiqueta a de la siguiente forma:
+    Los enlaces que sean de tipo link tendrán un color verde.
+    Los enlaces en los que ya se haya entrado tendrán un color amarillo.
+    Cuando pases con el ratón por encima de un enlace, este se pondrá de color negro.
+    Cuando se pulse encima de un enlace, este cambiará de color a azul.

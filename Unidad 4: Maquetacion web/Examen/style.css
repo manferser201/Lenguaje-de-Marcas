@@ -1,0 +1,113 @@
+body{
+    font-family: Arial;
+}
+
+header{
+    width: 100%;
+}
+
+#logotipo {
+    height: 20%;
+    width: 20%;
+}
+
+p{
+    margin-left: 10%;
+}
+
+p > input{
+    display: inline-block;
+}
+
+p > img {
+    width: 13%;
+    display: inline-block;
+    margin-top: -10%;
+}
+
+aside{
+    margin-left: 75%;
+}
+
+aside > img {
+    width: 5%;
+    height: 5%;
+    margin-right: -10%;
+}
+
+ul{
+    background-color: rgb(231, 21, 168);
+    position: sticky;
+    color: white;
+}
+
+nav > div{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+
+#izquierda{
+    width: 70%;
+    display: inline-block;
+    margin-top: -40%;
+}
+
+div#banner > img{
+    height: 100%;
+    width: 100%;
+    margin: 20px auto;
+}
+
+#bolitas{
+    text-align: center;
+    margin-top: -8%;
+    font-weight: bold;
+    color: rgb(231, 21, 168);
+}
+
+#flecha1{
+    margin-top: -8%;
+    margin-left: 95%;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(231, 21, 168);
+}
+
+#flecha2{
+    margin-top: -5%;
+    margin-bottom: 20%;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(231, 21, 168);
+}
+
+#imagenes{
+    margin-top: -10%;
+}
+
+#img {
+    display: inline-block;
+    text-align: center;
+    height: 30%;
+    width: 30%;
+}
+
+#img > img{
+    height: 50%;
+    width: 50%;
+}
+
+main > div#imagenes{
+    margin: 40px auto;
+}
+
+#derecha{
+    margin-left: 75%;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(231, 21, 168);
+    padding: 0.1%;
+}
